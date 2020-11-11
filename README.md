@@ -1,4 +1,4 @@
-# CSCI-496 Final Project DUe 11/18/2020
+# CSCI-496 Final Project Due 11/18/2020
 Final submission. Topic: Apache Spark's Pyspark API
 
 Apache Spark's Pyspark API runs on the Hadoop File System and allows developers to compute programs in clusters. 
