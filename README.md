@@ -21,7 +21,7 @@ A data structure known as Resilient Distributed Dataset (RDD) is used to distrib
 A [list of packages](https://spark.apache.org/docs/latest/api/python/index.html) are included with PySpark but we will be using a 3rd-party package to solve our community detection problem called GraphFrames. 
 
 ## GraphFrames
-GraphFrames is a 3rd-party package built for PySpark that specializes in graph computations. PySpark already has a built-in graph computation but GraphX is only for Scala. GraphFrames uses a data structure similar to RDDs known as DataFrames.
+[GraphFrames](https://graphframes.github.io/graphframes/docs/_site/index.html) is a 3rd-party package built for PySpark that specializes in graph computations. PySpark already has a built-in graph computation but GraphX is only for Scala. GraphFrames uses a data structure similar to RDDs known as DataFrames. 
 
 # GraphFrame's Community Detection Algorithm
 GraphFrames has a built-in community detection algorithm that we can use. The results should be similar to the following image.
