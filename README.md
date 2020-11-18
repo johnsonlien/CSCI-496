@@ -23,9 +23,12 @@ A [list of packages](https://spark.apache.org/docs/latest/api/python/index.html)
 ## GraphFrames
 GraphFrames is a 3rd-party package built for PySpark that specializes in graph computations. PySpark already has a built-in graph computation but GraphX is only for Scala. GraphFrames uses a data structure similar to RDDs known as DataFrames.
 
-## Label Propagation Algorithm
+# GraphFrame's Community Detection Algorithm
 GraphFrames has a built-in community detection algorithm that we can use. The results should be similar to the following image.
 ![LPA](https://github.com/johnsonlien/CSCI-496/blob/main/lpa.png?raw=true)
+
+# How do you determine an inflential user?
+Still trying to figure this out. 
 
 # Apache Spark Official Website
 Apache Spark's website to learn more is located [here](https://spark.apache.org/docs/3.0.1/) and contains the overview of the API. 
