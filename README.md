@@ -26,7 +26,7 @@ A [list of packages](https://spark.apache.org/docs/latest/api/python/index.html)
 # GraphFrame's Community Detection Algorithm
 GraphFrames has a built-in community detection algorithm that we can use called Label Propagation Algorithm (LPA). The results should be similar to the following image.
 
-![LPA](https://github.com/johnsonlien/CSCI-496/blob/main/lpa.png?raw=true)
+![LPA](https://github.com/johnsonlien/CSCI-596/blob/main/lpa.png?raw=true)
 
 # How do you determine an inflential user?
 There are many different factors to determine a user's influence so there is no clear cut answer to this. One idea is the PageRank algorithm where it determines a nodes "importance" based on the number of incoming edges. Depending on the social platform used, there would be different factors. 
