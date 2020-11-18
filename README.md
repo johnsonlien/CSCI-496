@@ -25,7 +25,7 @@ GraphFrames is a 3rd-party software built on PySpark that specializes in graph a
 
 ## Label Propagation Algorithm
 GraphFrames has a built-in community detection algorithm that we can use. The results should be similar to the following image.
-![LPA](https://d3i71xaburhd42.cloudfront.net/693280813d1e39120067e40338dccad9d2e857ea/5-Figure4-1.png)
+![LPA](https://github.com/johnsonlien/CSCI-496/lpa.png?raw=true)
 
 # Apache Spark Official Website
 Apache Spark's website to learn more is located [here](https://spark.apache.org/docs/3.0.1/) and contains the overview of the API. 
