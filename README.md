@@ -1,4 +1,4 @@
-# CSCI-496 Final Project Due 11/18/2020
+# CSCI-596 Final Project Due 11/18/2020
 Final submission. Topic: Community Detection with PySpark API 
 
 # The Problem
