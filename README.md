@@ -25,6 +25,7 @@ A [list of packages](https://spark.apache.org/docs/latest/api/python/index.html)
 
 # GraphFrame's Community Detection Algorithm
 GraphFrames has a built-in community detection algorithm that we can use. The results should be similar to the following image.
+
 ![LPA](https://github.com/johnsonlien/CSCI-496/blob/main/lpa.png?raw=true)
 
 # How do you determine an inflential user?
