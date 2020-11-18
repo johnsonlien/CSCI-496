@@ -16,6 +16,9 @@ def naive_method(n):
         x, y = random(), random()   # Generate random number between 0 and 1
         if x**2 + y**2 < 1:
             hit += 1
+
+    timing = np.round(time() - start, 3)
+    print("iterations: {}\t\tpi= {}\t\tseconds= {}".format(n, 4.0 * hit/n, timing))
     return np.round(time() - start, 3)     # Return the time taken to 3 decimal places
 
 
@@ -32,9 +35,11 @@ def spark_method(n, exec):
     # Create RDD and map function to clusters
     # Add the results together
     # Return the time taken
-    sc.parallelize(range(0, n), exec) \
+    count = sc.parallelize(range(0, n), exec) \
         .map(is_point_inside_circle).reduce(add)
-    return np.round(time() - start, 3)
+    timing = np.round(time() - start, 3)
+    print("iterations= {}\t\tpi= {}\t\tseconds= {}".format(n, (4.0 * count/n), timing))
+    return timing
 
 # Initialize Spark environment
 spark = SparkSession.builder.appName('EstimatePi').getOrCreate()
@@ -49,9 +54,13 @@ T_spark = []
 T_spark_2_executors = []
 
 # Run naive and default Spark version
+print("\n===== Naive Method =====")
 for n in N:
-    T_spark.append(spark_method(n, 4))     # Default Spark version (4 clusters)
-    T.append(naive_method(n))           # Naive method
+    T.append(naive_method(n))               # Naive method
+
+print("\n===== Spark Method 4 clusters =====")
+for n in N:
+    T_spark.append(spark_method(n, 4))     # Default Spark method (4 clusters)
 
 # Stop the Spark session
 spark.stop()
@@ -61,6 +70,7 @@ spark.stop()
 # Run Spark version with 2 clusters
 spark = SparkSession.builder.appName('EstimatePi').getOrCreate()
 sc = spark.sparkContext
+print("\n===== Spark Method 2 clusters =====")
 for n in N:
     T_spark_2_executors.append(spark_method(n, 2))
 
