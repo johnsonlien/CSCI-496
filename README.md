@@ -1,7 +1,7 @@
 # CSCI-496 Final Project Due 11/18/2020
 Final submission. Topic: Community Detection with PySpark API 
 
-# Problem:
+# The Problem
 Can I predict/find influential users within a community? 
 
 # What is the drive behind this?
@@ -28,7 +28,7 @@ GraphFrames has a built-in community detection algorithm that we can use. The re
 ![LPA](https://github.com/johnsonlien/CSCI-496/blob/main/lpa.png?raw=true)
 
 # How do you determine an inflential user?
-There are many different factors to determine a user's influence so there is no clear cut answer to this. One idea is the PageRank algorithm where it determines a nodes "importance" based on the number of incoming edges. Depending on the social platform used, there could be different factors. 
+There are many different factors to determine a user's influence so there is no clear cut answer to this. One idea is the PageRank algorithm where it determines a nodes "importance" based on the number of incoming edges. Depending on the social platform used, there would be different factors. 
 
 # Apache Spark Official Website
 Apache Spark's website to learn more is located [here](https://spark.apache.org/docs/3.0.1/) and contains the overview of the API. 
