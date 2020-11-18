@@ -5,7 +5,7 @@ Final submission. Topic: Community Detection with PySpark API
 Can I predict/find influential users within a community? 
 
 # What is the drive behind this?
-Business promotion. By identifying influential users, or being able to predict who is influential, you can target advertisment around those users and promote a business product. Can incentivize users to go to some store and gather people with common interests.
+Business promotion. By identifying influential users, or being able to predict who is influential, you can target advertisment around those users and promote a business or its product. Can incentivize users to go to some store and gather people with common interests.
 
 # Solution: Apache Spark's PySpark
 ## What is PySpark?
@@ -22,6 +22,10 @@ A [list of packages](https://spark.apache.org/docs/latest/api/python/index.html)
 
 ## GraphFrames
 GraphFrames is a 3rd-party software built on PySpark that specializes in graph and graph functions. PySpark already has a built-in graph computation but GraphX is only for Scala. GraphFrames uses a data structure similar to RDDs known as DataFrames.
+
+## Label Propagation Algorithm
+GraphFrames has a built-in community detection algorithm that we can use. The results should be similar to the following image.
+![LPA](https://d3i71xaburhd42.cloudfront.net/693280813d1e39120067e40338dccad9d2e857ea/5-Figure4-1.png)
 
 # Apache Spark Official Website
 Apache Spark's website to learn more is located [here](https://spark.apache.org/docs/3.0.1/) and contains the overview of the API. 
