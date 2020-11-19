@@ -31,8 +31,6 @@ GraphFrames has a built-in community detection algorithm that we can use called 
 # How do you determine an inflential user?
 There are many different factors to determine a user's influence so there is no clear cut answer to this. One idea is the PageRank algorithm where it determines a nodes "importance" based on the number of incoming edges. Depending on the social platform used, there would be different factors. 
 
-# Apache Spark Official Website
-Apache Spark's website to learn more is located [here](https://spark.apache.org/docs/3.0.1/) and contains the overview of the API. 
 
 Note: Because this is an unpublished research project, there is no actual code to show regarding this community detection. There is only a broad overview of the plan.
 
@@ -40,7 +38,10 @@ If you have any questions regarding PySpark, I will try my best to answer.
 
 my email: jtlien@usc.edu
 
+
+# Apache Spark Official Website
+Apache Spark's website to learn more is located [here](https://spark.apache.org/docs/3.0.1/) and contains the overview of the API. 
+
 # Quick PySpark Demo for Monte Carlo Simulation of Pi
 Just for a quick demonstration of PySpark, I have included a python file that estimates Pi using Monte Carlo simulation. 
-![](https://github.com/johnsonlien/CSCI-596/blob/main/pyspark_mc_pi.PNG?raw=true)
-![](https://github.com/johnsonlien/CSCI-596/blob/main/pyspark_pi_convergence.png?raw=true)
+![mc_pi_time](https://github.com/johnsonlien/CSCI-596/blob/main/pyspark_mc_pi.PNG?raw=true) ![mc_pi_estimate](https://github.com/johnsonlien/CSCI-596/blob/main/pyspark_pi_convergence.png?raw=true)
