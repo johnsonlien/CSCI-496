@@ -44,5 +44,5 @@ Apache Spark's website to learn more is located [here](https://spark.apache.org/
 
 # Quick PySpark Demo for Monte Carlo Simulation of Pi
 Just for a quick demonstration of PySpark, I have included a python file that estimates Pi using Monte Carlo simulation. 
-![mc_pi_time](https://github.com/johnsonlien/CSCI-596/blob/main/pyspark_mc_pi.png?raw=true) 
-![mc_pi_estimate](https://github.com/johnsonlien/CSCI-596/blob/main/pyspark_pi_convergence.png?raw=true)
+![mc_pi_time](https://github.com/johnsonlien/CSCI-596/blob/main/PySpark_MC_Pi_Example/pyspark_mc_timing.png?raw=true) 
+![mc_pi_estimate](https://github.com/johnsonlien/CSCI-596/blob/main/PySpark_MC_Pi_Example/pyspark_pi_estimations.png?raw=true)
