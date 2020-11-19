@@ -37,4 +37,5 @@ Apache Spark's website to learn more is located [here](https://spark.apache.org/
 Note: Because this is an unpublished research project, there is no actual code to show regarding this community detection. There is only a broad overview of the plan.
 
 If you have any questions regarding PySpark, I will try my best to answer.
+
 my email: jtlien@usc.edu
