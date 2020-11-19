@@ -39,3 +39,8 @@ Note: Because this is an unpublished research project, there is no actual code t
 If you have any questions regarding PySpark, I will try my best to answer.
 
 my email: jtlien@usc.edu
+
+# Quick PySpark Demo for Monte Carlo Simulation of Pi
+Just for a quick demonstration of PySpark, I have included a python file that estimates Pi using Monte Carlo simulation. 
+![](https://github.com/johnsonlien/CSCI-596/blob/main/pyspark_mc_pi.png?raw=true)
+![](https://github.com/johnsonlien/CSCI-596/blob/main/pyspark_pi_convergence.png?raw=true)
