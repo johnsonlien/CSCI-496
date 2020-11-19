@@ -1,5 +1,6 @@
 # Monte Carlo Estimation of Pi
-This folder demonstrates an example of PI estimation using PySpark.
+This folder demonstrates an example of PI estimation using PySpark and how it can speed up computation.
+
 ## General Idea of Monte Carlo Simulation
 The idea is simple. Generate some number of points with coordinates (x, y) where 0 <= x <= 1 and 0 <= y <= 1. 
 Count the number of points that lie inside the unit circle and the total number of points generated. 
