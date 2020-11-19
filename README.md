@@ -34,3 +34,7 @@ There are many different factors to determine a user's influence so there is no 
 # Apache Spark Official Website
 Apache Spark's website to learn more is located [here](https://spark.apache.org/docs/3.0.1/) and contains the overview of the API. 
 
+Note: Because this is an unpublished research project, there is no actual code to show regarding this community detection. There is only a broad overview of the plan.
+
+If you have any questions regarding PySpark, I will try my best to answer.
+my email: jtlien@usc.edu
