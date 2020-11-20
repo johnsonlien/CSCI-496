@@ -40,9 +40,17 @@ my email: jtlien@usc.edu
 
 
 # Apache Spark Official Website
-Apache Spark's website to learn more is located [here](https://spark.apache.org/docs/3.0.1/) and contains the overview of the API. 
+Apache Spark's website to learn more is located [here](https://spark.apache.org/docs/3.0.1/) and contains the overview of the API.
 
 # Quick PySpark Demo for Monte Carlo Simulation of Pi
 Just for a quick demonstration of PySpark, I have included a python file that estimates Pi using Monte Carlo simulation. 
 ![mc_pi_time](https://github.com/johnsonlien/CSCI-596/blob/main/PySpark_MC_Pi_Example/pyspark_mc_pi_timing.png?raw=true) 
 ![mc_pi_estimate](https://github.com/johnsonlien/CSCI-596/blob/main/PySpark_MC_Pi_Example/pyspark_mc_pi_estimations.png?raw=true)
+
+# Spark Setup
+In order to run the code, some environment setup is required. A few things need to be installed:
+* Spark 3.0.1
+* Java JDK 1.8
+* Python 3
+* Scala 2.12
+In addition to downloading these files, you need to setup your computer's Environment Variables. You can ask me for assistance for this if you want. 
