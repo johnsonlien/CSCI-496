@@ -53,4 +53,5 @@ In order to run the code, some environment setup is required. A few things need 
 * Java JDK 1.8
 * Python 3
 * Scala 2.12
+
 In addition to downloading these files, you need to setup your computer's Environment Variables. You can ask me for assistance for this if you want. 
