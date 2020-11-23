@@ -4,7 +4,7 @@ This folder demonstrates an example of PI estimation using PySpark and how it ca
 ## General Idea of Monte Carlo Simulation
 The idea is simple. Generate some number of points with coordinates (x, y) where 0 <= x <= 1 and 0 <= y <= 1. 
 Count the number of points that lie inside the unit circle and the total number of points generated. 
-Divide the number of points inside the circle by the total number of points and multiply by 4 (because the points are only in the first quadrant) and that'll give you an estimation of pi.
+Divide the number of points inside the circle by the total number of points and multiply by 4 (because the points are only in the first quadrant) and that'll give you an approximation of pi.
 ![](https://nclab.com/wp-content/media/2017/08/pi1.gif)
 
 ## PySpark MC Estimation of Pi
