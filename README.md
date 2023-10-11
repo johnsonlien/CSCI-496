@@ -1,6 +1,3 @@
-# CSCI-596 Final Project Due 11/18/2020
-Final submission. Topic: Community Detection with PySpark API 
-
 # The Problem
 Can I predict/find influential users within a community? 
 
